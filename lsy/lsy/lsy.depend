@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1569309877 source:c:\users\solarie\desktop\lsy\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Task.h"
+
+1569309877 c:\users\solarie\desktop\lsy\task.h
+	"Task.h"
+
