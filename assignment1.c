@@ -3,13 +3,15 @@
 
 float average(){
 
-    int a, b, c, d, e, f, g, h, i, j;
-
     printf("Enter 10 integers: ");
-    scanf("%d %d %d %d %d %d %d %d %d %d", &a, &b, &c, &d, &e, &f, &g, &h, &i, &j);
 
-    float sum = a+b+c+d+e+f+g+h+i+j;
-
+    int i = 1;
+    int a = 0;
+    float sum = 0;
+    for(i=1;i<=10;i++){
+        scanf("%d",&a);
+        sum = sum + a;
+    }
     return sum/10;
 }
 
