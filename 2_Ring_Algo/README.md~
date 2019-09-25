@@ -109,7 +109,7 @@ output the direction in unit of degree after the inputs. See the example below:
 | 1 | -179|
 |'c'| (Program exits)| 
 
-You may realize that the inputs in the testing cases may not
+You may realize that the **inputs in the testing cases** may not be limited to the range mentioned above. 
 
 There is no need for you to output in the table format. 
 
