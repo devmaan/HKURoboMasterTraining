@@ -16,21 +16,10 @@ void menu(int * current_angle)	{
 		if (input[i] == '-' || input[i] == '+')
 			n++;
 		}
-	/*i--;
-	int length = i + 1 - n;
-	for (; i >= 0; i--)	{
-		if (input[i] == '+' || input[i] == '-')	
-			continue;
-		else
-			angle += (input[i] - '0') * pow(10, length - i - n - 1);
-		}
-	if (n)
-		angle *= -1;
-	//Now the angle input is stored within the angle variable
-	*/
+	
 	angle = atoi(input);
 	(*current_angle) += angle;
-	//If angle cumulatively is larger than 180 degrees, we check the quotient
+	
 	if ((*current_angle) >= 180)	{
 		if (((*current_angle) / 180) % 2 == 0)
 			*current_angle = (*current_angle) % 180;
@@ -42,9 +31,6 @@ void menu(int * current_angle)	{
 	if ((*current_angle) == -180)
 		(*current_angle) = 180;
 	
-	
-	//angle = atoi(input);
-	//*current_angle = ((*current_angle) % 360) - 180;
 	printf("The current angle = %d\n", *current_angle);
 	return;
 	}
