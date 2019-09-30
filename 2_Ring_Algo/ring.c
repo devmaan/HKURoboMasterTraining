@@ -9,12 +9,10 @@ void menu(int * current_angle)	{
 	char input[100];
 	printf("Enter the angle: ");
 	scanf(" %s", input);
-	int i, n = 0;
+	int i;
 	for (i = 0; input[i] != '\0'; i++)	{
 		if (isalpha(input[i]))
 			exit(0);
-		if (input[i] == '-' || input[i] == '+')
-			n++;
 		}
 	
 	angle = atoi(input);
