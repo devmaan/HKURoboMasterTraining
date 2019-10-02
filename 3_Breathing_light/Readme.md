@@ -6,11 +6,9 @@ What you are asked to make is a breathing light.
 You may implement the tasks below one by one, but you could just record your work that has the most complete function that you can achieve!
 (Only fulfill the first task is good enough)
 1. use a switch(_output 0v when closed, 5v when open!!!!!_) to control the on/off of the light
-
-**suggestion: let `PI0`(correction for the training slide) be the input pin and `PI2` be the output pin**
+   **suggestion: let `PI0`(correction for the training slide) be the input pin and `PI2` be the output pin**
 2. make the light to breath periodically
 3. make the period to be 2s (1s to brighten and 1s to darken)
-***
 ## How to hand in your assignment?
 - ## Please take a short video of your model and demonstrate the full function of it. Upload you video [here](https://drive.google.com/drive/folders/1Yw7WxppSxigywkYjdmyoB-FW3ukdmkxP?usp=sharing)
 ### Some hints to help you:
