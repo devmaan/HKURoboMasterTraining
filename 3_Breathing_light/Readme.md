@@ -13,7 +13,8 @@ You may implement the tasks below one by one, but you could just record your wor
 - ## Please take a short video of your model and demonstrate the full function of it. Upload you video [here](https://drive.google.com/drive/folders/1Yw7WxppSxigywkYjdmyoB-FW3ukdmkxP?usp=sharing)
 ### Some hints to help you:
 1. use `HAL_Delay(time)` to keep the existing state of the developing board for `time`μs
-2. There is no need to create any interrupt, just add your code in the while loop inside `main()`
-3. All the techniques you need is taught in the training, so those who didn't come please refer to the slide I attached below or uploaded on slack.
-4. You will never know what problems you will encounter if you don't practice those theories by yourself!
-5. Ask google or me if there's any uncertainty, my email's u35lyc@connect.hku.hk
+2. use `HAL_GPIO_ReadPin(x_GPIO_Port,x_Pin)` to read the input signal(0/1)
+3. There is no need to create any interrupt, just add your code in the while loop inside `main()`
+4. All the techniques you need is taught in the training, so those who didn't come please refer to the slide I attached below or uploaded on slack.
+5. You will never know what problems you will encounter if you don't practice those theories by yourself!
+6. Ask google or me if there's any uncertainty, my email's u35lyc@connect.hku.hk
